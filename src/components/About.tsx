@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-secondary">
+    <section id="about" className="py-24 bg-gradient-to-b from-background via-muted/20 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary-foreground">
@@ -30,21 +30,21 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4">I Nostri Valori</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                <div className="text-center p-6 border border-border">
+                <div className="text-center p-6 border border-border rounded-lg bg-card/30 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
                   <h4 className="font-semibold text-xl mb-2 text-accent">Freschezza</h4>
-                  <p className="text-secondary-foreground/80">
+                  <p className="text-muted-foreground">
                     Ingredienti selezionati quotidianamente
                   </p>
                 </div>
-                <div className="text-center p-6 border border-border">
+                <div className="text-center p-6 border border-border rounded-lg bg-card/30 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
                   <h4 className="font-semibold text-xl mb-2 text-accent">Tradizione</h4>
-                  <p className="text-secondary-foreground/80">
+                  <p className="text-muted-foreground">
                     Tecniche autentiche giapponesi
                   </p>
                 </div>
-                <div className="text-center p-6 border border-border">
+                <div className="text-center p-6 border border-border rounded-lg bg-card/30 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
                   <h4 className="font-semibold text-xl mb-2 text-accent">Eccellenza</h4>
-                  <p className="text-secondary-foreground/80">
+                  <p className="text-muted-foreground">
                     Qualità in ogni dettaglio
                   </p>
                 </div>

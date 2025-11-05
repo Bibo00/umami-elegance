@@ -7,7 +7,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-secondary">
+    <section id="contact" className="py-24 bg-gradient-to-b from-background via-muted/20 to-muted/50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary-foreground">
           Contattaci
@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0 rounded-lg shadow-md">
                 <Phone className="text-accent-foreground" size={24} />
               </div>
               <div>
@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0 rounded-lg shadow-md">
                 <MapPin className="text-accent-foreground" size={24} />
               </div>
               <div>
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-accent flex items-center justify-center shrink-0 rounded-lg shadow-md">
                 <Clock className="text-accent-foreground" size={24} />
               </div>
               <div>
@@ -70,7 +70,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale"
+              className="grayscale rounded-lg shadow-lg"
             ></iframe>
           </div>
         </div>
