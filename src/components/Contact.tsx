@@ -7,7 +7,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-background via-muted/20 to-muted/50">
+    <section id="contact" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary-foreground">
           Contattaci
