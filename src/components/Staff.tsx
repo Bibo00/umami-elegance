@@ -25,7 +25,7 @@ const staffMembers = [
 
 const Staff = () => {
   return (
-    <section id="staff" className="py-24 bg-gradient-to-b from-background via-muted/20 to-background">
+    <section id="staff" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Il Nostro Staff</h2>
         <div className="w-20 h-1 bg-accent mx-auto mb-16"></div>
